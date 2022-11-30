@@ -1,0 +1,94 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+.page-container {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.bike-ride {
+    width: 400px;
+    height: auto;
+}
+.logo {
+    background-color: #2b2828;
+    opacity: 0.5;
+    position: absolute;
+    display: block;
+    top: 0;
+}
+.image-container p {
+    color: #fffdfd;
+    position: absolute;
+    top: 560px;
+    padding-left: 100px;
+}
+.image-container p a {
+    color: #fffdfd;
+}
+div.form-page {
+    font-size: 20px;
+}
+div.intro {
+    background-color: #fffbfbd7;
+    padding: 35px ;
+}
+div.form {
+    padding: 15px;
+    background-color: #fcffe4;
+    color: #434040;
+}
+div.form>div {
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.form-data {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: flex-start;
+    margin: 5px 20px;
+}
+.form-data label {
+    font-size: 16px;
+}
+.form-data input[type="text"], .form-data input[type="email"], .form-data input[type="tel"], .form-data input[type="password"] {
+    border-radius: 3px;
+    border: 1px solid #E5E7EB;
+    font-size: 16px;
+    padding: 5px;
+}
+.form-data input[type="text"]:focus, .form-data input[type="email"]:focus, .form-data input[type="tel"]:focus, .form-data input[type="password"]:focus {
+    border: 1px solid #311b1b;
+}
+.form-data input[type="password"]:invalid {
+    border: 1px solid #ff0000;
+}
+div.login {
+    background-color: #ffffff;
+    padding: 20px 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.login a {
+    color: #743c3c;
+    text-decoration: none;
+}
+button {
+    background-color: #794343;
+    border: none;
+    color: #E5E7EB;
+    padding: 15px;
+    border-radius: 3px;
+}

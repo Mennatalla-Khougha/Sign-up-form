@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-container">
+        <div class="image-container">
+            <img src="./caitlyn-vermeij-ZBfwKnEefWY-unsplash.jpg" alt="Enduro Motor Ride" class="bike-ride">
+            <div class="logo">
+                <img src="./odin-lined.png" alt="logo" width="50px" height="50px">
+            </div>
+            <p>Photo by <a href="https://unsplash.com/@caitlynvermeij?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caitlyn Vermeij</a> on <a href="https://unsplash.com/t/athletics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+        </div>
+        <div class="form-page">
+            <div class="intro">
+                <p class="intro">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p class="intro">You know you want to.</p>
+            </div>
+            <div class="form">
+                <div>
+                    <p>Let's do this</p>
+                </div>
+                <form action="" method="post" id="sign-up">
+                    <div class="form-data">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+                    <div class="form-data">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </div>
+                    <div class="form-data">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="form-data">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                    <div class="form-data">
+                        <label for="pwd">Password</label>
+                        <input type="password" name="password" id="pwd" minlength="5" maxlength="15" required>
+                    </div>
+                    <div class="form-data">
+                        <label for="pwd2">Confirm Password</label>
+                        <input type="password" name="password" id="pwd2" minlength="5" maxlength="15" required>
+                    </div>
+                </form>
+            </div>
+            <div class="login">
+                <button type="submit" form="sign-up">Create Account</button>
+                <p class="login">Already have an account? <a href="http://">Log in</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
